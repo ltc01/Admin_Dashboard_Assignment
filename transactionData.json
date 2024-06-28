@@ -1,0 +1,103 @@
+[
+    {
+      "id": "1",
+      "date": "2024-06-24",
+      "amount": 100.00,
+      "status": "Pending",
+      "user": {
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      }
+    },
+    {
+      "id": "2",
+      "date": "2024-06-23",
+      "amount": 250.50,
+      "status": "Approved",
+      "user": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com"
+      }
+    },
+    {
+      "id": "3",
+      "date": "2024-06-22",
+      "amount": 75.20,
+      "status": "Rejected",
+      "user": {
+        "name": "Mike Johnson",
+        "email": "mike.johnson@example.com"
+      }
+    },
+    {
+      "id": "4",
+      "date": "2024-06-21",
+      "amount": 300.00,
+      "status": "Pending",
+      "user": {
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com"
+      }
+    },
+    {
+      "id": "5",
+      "date": "2024-06-20",
+      "amount": 150.75,
+      "status": "Approved",
+      "user": {
+        "name": "Chris Lee",
+        "email": "chris.lee@example.com"
+      }
+    },
+    {
+      "id": "6",
+      "date": "2024-06-19",
+      "amount": 50.00,
+      "status": "Rejected",
+      "user": {
+        "name": "Patricia Brown",
+        "email": "patricia.brown@example.com"
+      }
+    },
+    {
+      "id": "7",
+      "date": "2024-06-18",
+      "amount": 200.25,
+      "status": "Pending",
+      "user": {
+        "name": "David Wilson",
+        "email": "david.wilson@example.com"
+      }
+    },
+    {
+      "id": "8",
+      "date": "2024-06-17",
+      "amount": 175.00,
+      "status": "Approved",
+      "user": {
+        "name": "Sarah Martinez",
+        "email": "sarah.martinez@example.com"
+      }
+    },
+    {
+      "id": "9",
+      "date": "2024-06-16",
+      "amount": 125.50,
+      "status": "Rejected",
+      "user": {
+        "name": "James Anderson",
+        "email": "james.anderson@example.com"
+      }
+    },
+    {
+      "id": "10",
+      "date": "2024-06-15",
+      "amount": 400.00,
+      "status": "Pending",
+      "user": {
+        "name": "Laura Jackson",
+        "email": "laura.jackson@example.com"
+      }
+    }
+  ]
+  
