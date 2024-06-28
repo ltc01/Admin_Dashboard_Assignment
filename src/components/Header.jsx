@@ -5,18 +5,18 @@ const Header = () => {
   const location = useLocation();
   return (
     <>
-      <nav className="lg:pt-20 lg:w-[20%] lg:h-screen h-full px-10 lg:pr-36 lg:pl-10 p-4 bg-blue-950 font-semibold text-xl ">
-        <ul className="flex lg:flex-col list-none text-white ">
-          <li className="p-3 px-5 hover:text-yellow-200 hover:underline">
+      <nav className="md:fixed md:pt-20 md:w-[25%] md:h-screen h-full p-4 bg-blue-950 font-semibold text-xl ">
+        <ul className="flex md:flex-col text-white ">
+          <li className="p-2 mr-2 hover:text-yellow-200 hover:underline">
             <Link to={"/"} className="">
               Home
             </Link>
           </li>
-          <li className="p-3 px-5 hover:text-yellow-200 hover:underline">
+          <li className="p-2 hover:text-yellow-200 hover:underline">
             <Link to={"/admin"}>Dashboard</Link>
-          </li>
+          </li>    
         </ul>
-        <button className="absolute right-20 p-2  hover:text-yellow-200 hover:underline">
+        <button className="absolute right-[5%] top-4 p-2 text-white md:text-blue-950  hover:text-yellow-200 hover:underline">
           {location.pathname === "/admin" ? "Logout" : "Login"}
         </button>
       </nav>

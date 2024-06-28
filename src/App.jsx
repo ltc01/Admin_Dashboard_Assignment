@@ -36,7 +36,7 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div className="flex flex-col md:flex-row">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
