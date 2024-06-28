@@ -12,8 +12,9 @@ const SearchBar = () => {
     <div className="relative mb-5 md:mb-0">
       {/* <h2>Search Transaction:</h2> */}
       <form onSubmit={(e) => e.preventDefault()} className="">
+        <label className="font-semibold"> Search Transaction: </label>
         <input
-          className="p-3 md:p-4 w-[99%] lg:w-[80%] px-5 md:px-7 shadow-lg rounded-full bg-slate-50 focus:outline focus:outline-1 focus:outline-slate-500"
+          className="p-3 mt-2 md:p-4 w-[99%] lg:w-[80%] px-5 md:px-7 shadow-lg rounded-full bg-slate-50 focus:outline focus:outline-1 focus:outline-slate-500"
           type="text"
           name="findTransaction"
           id="findTransaction"
@@ -23,9 +24,6 @@ const SearchBar = () => {
           onChange={handleSearch}
           required
         />
-        <span
-        className="absolute top-3 left-[85%] lg:top-4"
-        > Q </span>
       </form>
     </div>
   );

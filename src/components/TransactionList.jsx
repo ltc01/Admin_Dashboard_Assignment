@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import StatusEditor from "./StatusEditor";
 import swal from 'sweetalert';
 import { MainContext } from "../context/TransactionProvider";
+// import { FaEdit } from "react-icons/fa";
 
 const TransactionList = ({transactions, updateTransactionStatus}) => {
   const {setCurrentTransaction,setNewStatus,setOpen,newStatus,currentTransaction, open} = useContext(MainContext)
@@ -61,9 +62,8 @@ const TransactionList = ({transactions, updateTransactionStatus}) => {
                     </td>
                   <td>
                     <button onClick={() => openPopup(trans)}
-                    className="text-blue-700 bg-blue-100 px-3 hover:bg-blue-700 hover:text-white rounded-lg"
+                    className="text-blue-800 bg-blue-100 px-3 hover:bg-blue-700 hover:text-white rounded-lg"
                     >Edit</button>
-                    
                   </td>
                 </tr>
               ))}

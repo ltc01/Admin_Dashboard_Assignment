@@ -39,7 +39,7 @@ const StatusEditor = ({ handleStatusChange, saveStatus }) => {
             <div className="pt-[9%] text-center">
               <button
                 onClick={saveStatus}
-                className="mt-3 bg-blue-400 hover:bg-blue-800 text-white p-2 rounded-full px-10 font-semibold mx-2"
+                className="mt-3 bg-blue-600 hover:bg-blue-800 text-white p-2 rounded-full px-10 font-semibold mx-2"
               >
                 Save
               </button>

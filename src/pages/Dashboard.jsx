@@ -3,10 +3,11 @@ import TransactionList from "../components/TransactionList";
 import FilterBar from "../components/FilterBar";
 import SearchBar from "../components/SearchBar";
 import { MainContext } from "../context/TransactionProvider";
+import { Admin } from "../components/Home";
 
 const Dashboard = ({ updatedTransList, handleUpdateStatus }) => {
   return (
-      <div className="md:pl-[30%] py-12 bg-slate-100 w-full h-[100%]">
+      <div className="md:pl-[25%] py-12 bg-slate-100 w-full h-[100%]">
         <div className="bg-white md:float-right mx-auto md:mr-[5%] p-8 md:p-10 rounded-3xl w-[90%] h-[100%]">
           <h1 className="md:text-4xl text-2xl font-semibold">
             Welcome to Dashboard!
@@ -20,6 +21,7 @@ const Dashboard = ({ updatedTransList, handleUpdateStatus }) => {
             updateTransactionStatus={handleUpdateStatus}
           />
         </div>
+        <Admin />
       </div>
   );
 };
